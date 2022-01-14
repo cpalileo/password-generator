@@ -1,5 +1,14 @@
 // Assignment code here
 
+var selectOptions() {
+   
+}
+
+// Welcome
+// Length of password? 8 - 128 characters
+// Select character types: lower, upper, numeric, special
+//
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -15,3 +24,5 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+welcome()
