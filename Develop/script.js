@@ -1,15 +1,13 @@
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
+
+// Add event listener to generate button
+generateBtn.addEventListener("click", welcome);
 
 const lowerChar = "abcdefghijklmnopqrstuvwxyz";
 const upperChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const numericChar = "0123456789";
 const specialChar = "!@,#$%&*{}[]/\\+=";
-
-welcome();
 
 // Welcome screen
 function welcome() {
@@ -73,16 +71,17 @@ function selectOptions(length) {
     // console.log(password);
     // console.log(possibleCharacters.charAt(characterIndex));
   }
-}
-// Generates password
-function generatePassword() {
-  var passwordCreated = password;
-  return passwordCreated;
+  writePassword(password);
 }
 
+// Generates password
+// function generatePassword() {
+//   var passwordCreated = password;
+//   return passwordCreated;
+// }
+
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
+function writePassword(password) {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
