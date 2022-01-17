@@ -1,6 +1,6 @@
 # Password Generator Challenge 3
 
-This weeks challenge was to take starter code and develop a password generator using JavaScript. We where instructed to make the website have pop-ups that allowed the user to set paramenters for the password. The user is offered the option to make a password from 8 to 128 characters in length while having the choice to use lower case, upper case, numbers, and special characters.
+This week's challenge was to take starter code and develop a password generator using JavaScript. We were instructed to make the website have pop-ups that allowed the user to set parameters for the password. The user is offered the option to make a password from 8 to 128 characters in length while having the choice to use lower case, upper case, numbers, and special characters.
 
 [Link to project respository](https://github.com/cpalileo/password-generator)
 
